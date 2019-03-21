@@ -3,7 +3,7 @@ import styles from '../css/app.css';
 import Skills from './skills.jsx';
 import TopPic from './topPic.jsx';
 import About from './about.jsx';
-import Interests from './interests.jsx';
+import Experience from './experiences.jsx';
 import Contact from './contact.jsx';
 
 class App extends React.Component {
@@ -16,7 +16,7 @@ class App extends React.Component {
           <TopPic />
           <About />
           <Skills />
-          <Interests />
+          <Experience />
           <Contact />
       </div>
     )
