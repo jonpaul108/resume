@@ -1,0 +1,40 @@
+.background {
+  background-color: #97AABD;
+  height: 60em;
+  width: 100%;
+}
+
+.image {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  position: relative;
+  left: 25%;
+  top: 25%;
+  z-index: 2;
+  height: 10em;
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #9E5A63;
+}
+
+.name {
+  position: relative;
+  right: 5%;
+  font-size: 7em;
+
+}
+
+.lastName {
+  position: relative;
+  left: 1em;
+  font-size: 7em;
+}
+.resume {
+  font-size: 3em;
+}

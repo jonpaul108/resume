@@ -1,0 +1,1 @@
+webpackHotUpdate(0,{8:function(e,t,n){"use strict";n.r(t);var a=n(0),p=n.n(a),r=n(2),c=n.n(r);c.a.render(p.a.createElement("app",null),document.getElementById("app"))}});

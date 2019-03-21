@@ -1,0 +1,79 @@
+
+.main {
+  height: 100%;
+  min-width: 14em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 7em;
+}
+.skillContainer {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10em;
+  height: 2em;
+  margin-top: 2em;
+}
+.skillBarFill {
+  border: 2px solid #950740;
+  background-color: #c3073F;
+  height: 0.5em;
+  width: 1em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 25%;
+  box-shadow:
+    0.02em 0.02em 0em #d5d5d5,
+    0.175em 0.075em 0.075em rgba(0, 0, 0, 0.2);
+}
+
+
+.skillBarNoFill {
+  border: 2px solid #950740;
+  background-color: white;
+  height: 0.5em;
+  width: 1em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 25%;
+  box-shadow:
+    0.02em 0.02em 0em #d5d5d5,
+    0.175em 0.075em 0.075em rgba(0, 0, 0, 0.2);
+}
+
+
+.skillText{
+  font-size: 2.5em;
+  text-rendering: optimizeLegibility;
+  color: #314455;
+  letter-spacing: .05em;
+  text-shadow:
+     0.02em 0.02em 0em #d5d5d5,
+    0.175em 0.075em 0.075em rgba(0, 0, 0, 0.2);
+  height: 1em;
+  width: 2em;
+  display: flex;
+flex-direction: row;
+}
+.bars {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 15em;
+  top: 0.5em;
+}
+.image {
+  z-index: 2;
+  height:100%;
+  width:75%;
+}
+
+.techLabel {
+  font-size: 3em;
+  color: #9E5A63;
+  left: 2em;
+  position: relative;
+}

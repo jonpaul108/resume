@@ -1,0 +1,30 @@
+.main {
+  height: 60em;
+  width: 100%;
+  background-color: #C96567;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.verticalBorder {
+  border: 2px solid #9E5A63;
+  min-height: 60em;
+  width: 0.01px;
+  position: absolute;
+  left: 50%;
+}
+
+.horizontalBorder {
+  height: 0.1px;
+  min-width: 100%;
+  border-top: 2px solid #9E5A63;
+}
+
+.softLanguageContainer {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  right: 10em;
+}
