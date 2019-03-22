@@ -5,7 +5,7 @@ const Experiences = (props) => {
   return (
     <div className={styles.main}>
       <div className={styles.container}>
-        <h1 className={styles.title}>Experiences</h1>
+        <h1 className={styles.title}>Experience</h1>
         <h2>Projects</h2>
         <div className={styles.experienceOne}>
           <h3>System Design for Stock Purchase - Service and Proxy Deployment </h3>
